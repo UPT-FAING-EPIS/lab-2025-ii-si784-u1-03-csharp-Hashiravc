@@ -19,7 +19,7 @@ jobs:
       with:
         test-name: t1
         setup-command: export HOME='/home/runner' && cd Bank/Bank.Tests && dotnet restore
-        command: export HOME='/home/runner' && cd cd Bank/Bank.Tests && dotnet test
+        command: export HOME='/home/runner' && cd Bank/Bank.Tests && dotnet test
         timeout: 10
         max-score: 3
     - name: t2
