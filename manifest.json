@@ -1,0 +1,238 @@
+{
+  "source_base_path": "/home/runner/work/lab-2025-ii-si784-u1-03-csharp-Hashiravc/lab-2025-ii-si784-u1-03-csharp-Hashiravc",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Bank/Bank.WebApi.Tests/Cobertura/SummaryGithub.md",
+      "output": {
+        ".html": {
+          "relative_path": "Bank/Bank.WebApi.Tests/Cobertura/SummaryGithub.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Bank/Bank.WebApi.Tests/docs/Bank.WebApi.Tests.BankAccountTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Bank/Bank.WebApi.Tests/docs/Bank.WebApi.Tests.BankAccountTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Bank.WebApi.Tests.BankAccountTests",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Bank/Bank.WebApi.Tests/docs/Bank.WebApi.Tests.Test1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Bank/Bank.WebApi.Tests/docs/Bank.WebApi.Tests.Test1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Bank.WebApi.Tests.Test1",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Bank/Bank.WebApi.Tests/docs/Bank.WebApi.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Bank/Bank.WebApi.Tests/docs/Bank.WebApi.Tests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Bank.WebApi.Tests",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "Bank/Bank.WebApi.Tests/docs/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "Bank/Bank.WebApi.Tests/docs/toc.json"
+        },
+        ".html": {
+          "relative_path": "Bank/Bank.WebApi.Tests/docs/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Bank/Bank.WebApi.Tests/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "Bank/Bank.WebApi.Tests/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "Bank/Bank.WebApi.Tests/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "Bank/Bank.WebApi.Tests/toc.json"
+        },
+        ".html": {
+          "relative_path": "Bank/Bank.WebApi.Tests/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "disenio.md",
+      "output": {
+        ".html": {
+          "relative_path": "disenio.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/Bank.Tests.BankTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Bank.Tests.BankTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Bank.Tests.BankTests",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/Bank.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Bank.Tests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Bank.Tests",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/Bank.WebApi.Models.BankAccount.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Bank.WebApi.Models.BankAccount.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Bank.WebApi.Models.BankAccount",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/Bank.WebApi.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Bank.WebApi.Models.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Bank.WebApi.Models",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/Bank.WebApi.Tests.BankAccountTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Bank.WebApi.Tests.BankAccountTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Bank.WebApi.Tests.BankAccountTests",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/Bank.WebApi.Tests.Test1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Bank.WebApi.Tests.Test1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Bank.WebApi.Tests.Test1",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/Bank.WebApi.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Bank.WebApi.Tests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Bank.WebApi.Tests",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "docs/toc.json"
+        },
+        ".html": {
+          "relative_path": "docs/toc.html"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
