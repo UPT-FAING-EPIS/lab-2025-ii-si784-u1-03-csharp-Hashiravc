@@ -14,13 +14,13 @@ jobs:
           dotnet-version: '8.x'
 
       - name: Restore dependencies
-        run: dotnet restore ./Bank.WebApi.Tests/Bank.WebApi.Tests.csproj
+        run: dotnet restore
 
       - name: Build project
-        run: dotnet build ./Bank.WebApi.Tests/Bank.WebApi.Tests.csproj --no-restore
+        run: dotnet build --no-restore
 
       - name: Run tests
-        run: dotnet test ./Bank.WebApi.Tests/Bank.WebApi.Tests.csproj --no-build --verbosity normal
+        run: dotnet test --no-build --verbosity normal
 
-      - name: Pack NuGet placeholder
-        run: echo "No NuGet package to create for this lab"
+      - name: Pack NuGet
+        run: dotnet pack ./Bank.WebApi/Bank.WebApi.csproj --no-build -o ./nupkg
