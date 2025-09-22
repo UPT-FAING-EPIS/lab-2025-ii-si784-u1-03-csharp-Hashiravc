@@ -1,0 +1,12 @@
+name: Release Version
+on:
+  push:
+    tags:
+      - 'v*'
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Release step
+        run: echo "release version step"
