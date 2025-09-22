@@ -1,0 +1,9 @@
+name: Semgrep Analysis
+on: push
+jobs:
+  prospector-html:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run prospector-html
+        run: echo "Simulando prospector-html"
