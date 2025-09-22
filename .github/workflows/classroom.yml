@@ -18,8 +18,8 @@ jobs:
       uses: classroom-resources/autograding-command-grader@v1
       with:
         test-name: t1
-        setup-command: export HOME='/home/runner' && cd Bank && dotnet restore
-        command: export HOME='/home/runner' && cd Bank && dotnet test
+        setup-command: export HOME='/home/runner' && cd Bank/Bank.Tests && dotnet restore
+        command: export HOME='/home/runner' && cd cd Bank/Bank.Tests && dotnet test
         timeout: 10
         max-score: 3
     - name: t2
