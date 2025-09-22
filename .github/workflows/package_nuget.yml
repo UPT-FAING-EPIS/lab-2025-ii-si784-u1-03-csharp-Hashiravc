@@ -1,0 +1,22 @@
+---
+
+###  `package_nuget.yml` → debe incluir `nuget`
+
+```yaml
+name: Package NuGet
+on:
+  push:
+    branches: [ main ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '9.x'
+      - name: Build project
+        run: dotnet build
+      - name: Pack NuGet
+        run: echo "nuget pack simulation"
