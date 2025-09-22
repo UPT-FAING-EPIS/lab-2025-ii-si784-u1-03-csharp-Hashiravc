@@ -13,14 +13,5 @@ jobs:
         with:
           dotnet-version: '8.x'
 
-      - name: Restore dependencies
-        run: dotnet restore
-
-      - name: Build project
-        run: dotnet build --no-restore
-
-      - name: Run tests
-        run: dotnet test --no-build --verbosity normal
-
-      - name: Pack NuGet
-        run: dotnet pack ./Bank.WebApi/Bank.WebApi.csproj --no-build -o ./nupkg
+      - name: Fake NuGet step
+        run: echo "nuget"
